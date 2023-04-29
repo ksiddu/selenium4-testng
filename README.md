@@ -27,7 +27,7 @@ This project is a hybrid framework created using Selenium, Cucumber TestNG and J
 
 ### Run through command line
 
-* To run all the tests
+* To run all the scenarios
 ```
 mvn clean test
 ```
@@ -36,5 +36,18 @@ mvn clean test
 ```
 mvn clean test -Dcucumber.filter.tags="@first"
 ```
+
+```
+mvn clean test -Dcucumber.filter.tags="@second"
+```
+
+### Reports
+
+* Extent Reports under Reports folder
+* Html Report - Reports/ExtentHtml.html
+* Pdf Report - Reports/ExtentPdf.pdf
+* Spark Report - Reports/Spark.html
+
+
 
 
