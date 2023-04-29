@@ -51,6 +51,6 @@ mvn clean test -Dcucumber.filter.tags="@second"
 
 ### Sample Reports
 
-see sample reports [check here](Reports/ExtentHtml.html)
-see sample reports [check here](Reports)
+see sample pdf report [here](Reports/ExtentPdf.pdf)
+see all reports [here](Reports)
 
