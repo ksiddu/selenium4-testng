@@ -49,5 +49,8 @@ mvn clean test -Dcucumber.filter.tags="@second"
 * Spark Report - Reports/Spark.html
 
 
+### Sample Reports
 
+see sample reports [check here](Reports/ExtentHtml.html)
+see sample reports [check here](Reports)
 
