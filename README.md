@@ -27,8 +27,14 @@ This project is a hybrid framework created using Selenium, Cucumber TestNG and J
 
 ### Run through command line
 
+* To run all the tests
 ```
 mvn clean test
+```
+
+* To run the scenarios by using tag
+```
+mvn clean test -Dcucumber.filter.tags="@first"
 ```
 
 
